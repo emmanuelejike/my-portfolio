@@ -3,8 +3,8 @@
 }
 
 @font-face {
-    src: url();
-    font-family: teko;
+    src: url(../fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+    font-family: beba;
 }
 
 html,
@@ -12,7 +12,8 @@ body{
     padding: 0px;
     margin: 0px;
     font-size: 15px;
-    font-family: teko;
+    background: rgba(197, 193, 193, 0.24);
+    font-family: beba;
 }
 
 .header-content-section-container{
@@ -20,10 +21,14 @@ body{
     justify-content: space-around;
 }
 
-.content-logo{
+.content-logo {
     display: inline;
     padding: 12px 0px;
     font-size: 20px;
+}
+
+.logo:hover{
+    color: white !important;
 }
 
 ul{
@@ -38,7 +43,13 @@ ul{
 .home-nav{
     color: red;
     text-decoration: none;
+    text-transform: capitalize;
     border-bottom: 1px solid white;
+    font-size: 20px;
+}
+
+.home-nav:hover{
+    color: white;
 }
 
 .header-content-section-container a:not(.home-nav){
@@ -46,6 +57,11 @@ ul{
     color: white;
     text-transform: capitalize;
     font-weight: bold;
+    font-size: 20px;
+}
+
+.header-content-section-container a:not(.home-nav):hover{
+    color: rgb(235, 88, 88);
 }
 
 .header-section{
@@ -82,10 +98,19 @@ ul{
 .hero-section-btn-btn{
     background: rgb(11, 11, 100);
     color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
     padding: 6px 16px;
     text-transform: capitalize;
     border: none;
     outline: none;
+}
+
+.hero-section-btn-btn:hover{
+    background: rgb(146, 145, 145);
+    color: black;
+    transition: all .5s ease-in;
 }
 
 .main-section-element-container{
@@ -151,19 +176,22 @@ ul{
 .main-content-section-container-text{
     width: 80%;
     margin: auto;
-    padding: 20px;
+    padding: 30px;
     text-align: center;
     text-transform: capitalize;
     font-size: 25px;
     font-weight: bold;
+    color: white;
 }
 
 .main-content-section-container{
     background-image: url(../img/images\ \(51\).jpeg);
+    background-blend-mode: multiply;
+    background-color: thistle;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 105vh;
+    height: 110vh;
 }
 
 .main-section-section-container{
@@ -203,18 +231,22 @@ ul{
 
 .icon-container>:nth-child(1){
     color: blue;
+    padding: 0px 10px;
 }
 
 .icon-container>:nth-child(2){
-    color: green;
+    color: rgb(252, 21, 5);
+    padding: 0px 6px;
 }
 
 .icon-container>:nth-child(3){
-    color: rgb(90, 192, 226);
+    color: rgb(45, 46, 46);
+    padding: 0px 6px;
 }
 
 footer{
     text-align: center;
+    padding: 6px;
 }
 
 footer b{
