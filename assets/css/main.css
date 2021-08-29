@@ -3,8 +3,8 @@
 }
 
 @font-face {
-    /* src: url(/font/Bebas_Neue/BebasNeue-Regular.ttf); */
-    /* font-family: beba; */
+    src: url(/font/Rubik/Rubik-Italic-VariableFont_wght.ttf);
+    font-family: rubik;
 }
 
 html,
@@ -14,9 +14,7 @@ body{
     font-size: 15px;
     line-height: 1.5;
     background: rgba(197, 193, 193, 0.24);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    /* font-family: beba; */
-    /* font-weight: lighter; */
+    font-family: rubik;
 }
 
 .header-content-section-container{
@@ -140,6 +138,7 @@ ul{
 .main-section-content-text-xl{
     display: flex;
     justify-content: space-evenly;
+    gap: 30px;
     margin-top: 8px;
 
 }
@@ -260,7 +259,7 @@ h4 b{
     width: 30%;
 }
 
-article{
+span{
     text-transform: capitalize;
     color: red;
 }
