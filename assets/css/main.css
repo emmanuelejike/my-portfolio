@@ -347,6 +347,11 @@ footer b{
         top: 100px;
     }
 
+    .main-content-section-container-text{
+        width: 100%;
+        margin: auto;
+    }
+
     .main-section-flex-itmes1{
         width: 100%;
         margin: auto;
