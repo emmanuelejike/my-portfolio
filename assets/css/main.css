@@ -306,9 +306,8 @@ footer b{
         z-index: 500;
     }
 
-    .content-logo{
-        background-color: lightslategray;
-        margin: 130px;
+    .header-content-section-container{
+        background-color: rgb(1, 7, 12);
     }
 
     ul{
