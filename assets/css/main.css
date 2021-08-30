@@ -321,6 +321,11 @@ footer b{
         right: 0;
     }
 
+    .main-content-section-container{
+        height: 40vh;
+    }
+    
+
     .header-section{
         height: 100vh;
     }
@@ -339,7 +344,7 @@ footer b{
         justify-content: center;
         align-items: center;
         position: absolute;
-        top: 0;
+        top: 100px;
     }
 
     .main-section-flex-itmes1{
